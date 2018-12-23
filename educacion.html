@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Educación</title>
+</head>
+<body>
+<svg width="100%" height="100%">
+    <rect width="100%" height="100%" fill="red" />
+    <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+    <polygon points="120,0 240,225 0,225" fill="green"/>
+    <text x="50" y="100" font-family="Verdana" font-size="55"
+          fill="white" stroke="black" stroke-width="2">
+        IEAB!
+    </text>
+</svg>
+<h1>Curriculum Vitae</h1>
+<h2>Datos Personales:</h2>
+<h3>Iván Eleazar Agudelo Benavides</h3>
+<h3>Nacimiento: 4 de julio de 1983</h3>
+<h3>Cali Valle del cauca</h3>
+</br>
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="educacion.html">Educación</a></li>
+    <li><a href="experiencia.html">Experiencia</a></li>
+</ul>
+
+<h2>Educación.</h2>
+<table style="border-collapse: collapse; border: red 5px solid">
+    <tr style="border: green 5px solid;">
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+    </tr>
+    <tr>
+        <td>2007</td>
+        <td>Univarsidad del valle</td>
+        <td>Cali</td>
+        <td>si</td>
+    </tr>
+    <tr>
+        <td>2013</td>
+        <td>Univarsidad del valle</td>
+        <td>Cali</td>
+        <td>si</td>
+    </tr>
+</table>
+
+<p>Agregar estudio</p>
+
+<form method="post" >
+    <p>
+        <label for="year">Año</label><br />
+        <select name="year" id="year">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+        </select>
+    </p>
+</form>
+    </p>
+    <p>
+        <label for="username">Institución</label> : <input type="text" name="username" id="username" />
+    </p>
+    <p>
+        <label for="place">Lugar</label> : <textarea type="text" name="place" id="place" ></textarea>
+    </p>
+    <button type="submit">Enviar</button>
+</form>
+<footer style="text-align: center">
+    <h5>ivan.agudelo@innovapps.co</h5>
+    <h5>3187436083</h5>
+    <h5>@innovappsco</h5>
+</footer>
+</body>
+</html>
